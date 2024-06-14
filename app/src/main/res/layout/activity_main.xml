@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tic_tac_toe_online"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:layout_margin="8dp"
+        android:padding="8dp"/>
+
+    <Button
+        android:id="@+id/playOfflineBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play_offline" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/or"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_margin="8dp"
+        android:padding="8dp"/>
+
+    <Button
+        android:id="@+id/createGameOnlineBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_online_game" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Or"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_margin="8dp"
+        android:padding="8dp"/>
+
+    <Button
+        android:id="@+id/joinOnlineGameBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/join_online_game" />
+
+    <EditText
+        android:id="@+id/gameIdInput"
+        android:layout_margin="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_game_id" />
+
+</LinearLayout>
